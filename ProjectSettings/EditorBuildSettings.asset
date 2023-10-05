@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Questions.unity
     guid: b0c56e9af14478f4ea5e598fc563e380
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 0b12c2ab2a9218d438421bf8cdbdb87f
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 09847efeebde68f4e976d877116d5de5
   m_configObjects: {}
