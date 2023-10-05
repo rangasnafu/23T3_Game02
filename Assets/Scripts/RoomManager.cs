@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,8 @@ public class RoomManager : MonoBehaviour
     public GameObject doorButton;
     public GameObject confirmationUI;
     public GameObject buttonsUI;
+    public GameObject autopsyReportCamera;
+    //public GameObject autopsyReportUI;
 
     public void Desk()
     {
@@ -60,6 +63,15 @@ public class RoomManager : MonoBehaviour
     {
         confirmationUI.SetActive(true);
         buttonsUI.SetActive(false);
+    }
+
+    public void AutopsyReport()
+    {
+        mainCamera.SetActive(false);
+        buttonsUI.SetActive(false);
+        backButton.SetActive(true);
+        autopsyReportCamera.SetActive(true);
+        //autopsyReportUI.SetActive(true);
     }
 
     //public void Back()
