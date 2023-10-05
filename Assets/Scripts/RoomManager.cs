@@ -21,6 +21,7 @@ public class RoomManager : MonoBehaviour
         mainCamera.SetActive(false);
         deskCamera.SetActive(true);
         backButton.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     public void Bookshelf()
@@ -28,6 +29,7 @@ public class RoomManager : MonoBehaviour
         mainCamera.SetActive(false);
         bookshelfCamera.SetActive(true);
         backButton.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     public void Bin()
@@ -35,6 +37,7 @@ public class RoomManager : MonoBehaviour
         mainCamera.SetActive(false);
         binCamera.SetActive(true);
         backButton.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     public void Rug()
@@ -42,6 +45,7 @@ public class RoomManager : MonoBehaviour
         mainCamera.SetActive(false);
         rugCamera.SetActive(true);
         backButton.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     public void Drawers()
@@ -49,6 +53,7 @@ public class RoomManager : MonoBehaviour
         mainCamera.SetActive(false);
         drawersCamera.SetActive(true);
         backButton.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     public void Door()

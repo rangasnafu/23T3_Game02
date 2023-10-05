@@ -11,6 +11,7 @@ public class BackButton : MonoBehaviour
     public GameObject rugCamera;
     public GameObject drawersCamera;
     public GameObject backButton;
+    public GameObject buttonsUI;
 
     public void Back()
     {
@@ -21,5 +22,6 @@ public class BackButton : MonoBehaviour
         rugCamera.SetActive(false);
         drawersCamera.SetActive(false);
         backButton.SetActive(false);
+        buttonsUI.SetActive(true);
     }
 }
