@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Question2 : MonoBehaviour
 {
-    public GameObject correctAnswer;
-    public GameObject wrongAnswer1;
-    public GameObject wrongAnswer2;
-
     public void Correct()
     {
         SceneManager.LoadScene("Win");
