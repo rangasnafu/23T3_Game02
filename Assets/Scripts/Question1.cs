@@ -12,10 +12,12 @@ public class Question1 : MonoBehaviour
     {
         question1UI.SetActive(false);
         question2UI.SetActive(true);
+        Debug.Log("Correct!");
     }
 
     public void Incorrect()
     {
         SceneManager.LoadScene("Lose");
+        Debug.Log("Incorrect :/");
     }
 }
