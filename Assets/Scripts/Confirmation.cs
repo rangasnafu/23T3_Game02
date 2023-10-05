@@ -8,6 +8,7 @@ public class Confirmation : MonoBehaviour
     public GameObject yesButton;
     public GameObject noButton;
     public GameObject confirmationUI;
+    public GameObject buttonsUI;
 
     public void Yes()
     {
@@ -17,6 +18,7 @@ public class Confirmation : MonoBehaviour
     public void No()
     {
         confirmationUI.SetActive(false);
+        buttonsUI.SetActive(true);
     }
 
 }

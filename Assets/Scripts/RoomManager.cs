@@ -14,6 +14,7 @@ public class RoomManager : MonoBehaviour
     public GameObject backButton;
     public GameObject doorButton;
     public GameObject confirmationUI;
+    public GameObject buttonsUI;
 
     public void Desk()
     {
@@ -53,6 +54,7 @@ public class RoomManager : MonoBehaviour
     public void Door()
     {
         confirmationUI.SetActive(true);
+        buttonsUI.SetActive(false);
     }
 
     //public void Back()
